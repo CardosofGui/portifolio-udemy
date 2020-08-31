@@ -1,0 +1,388 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+html, body{
+  height: 100%;
+}
+.clear{
+  clear: both;
+}
+/* header */
+#header{
+  background-color: #ED1E24;
+  padding: 1% 2%;
+  width: 100%;
+}
+.content-header{
+  display: inline-block;
+  width: 50%;
+  margin-left: -4px;
+}
+.content-header h2{
+  display: inline;
+}
+
+/* logo */
+.logo img{
+  width: 45px;
+  vertical-align: middle;
+  transform: rotate(30deg);
+}
+.logo h2{
+  font-size: 36px;
+  vertical-align: middle;
+  margin-left: 15px;
+  color: white;
+}
+
+/* navbar */
+#navbar{
+  text-align: right;
+}
+#navbar li{
+  display: inline;
+  color: white;
+  margin: 0 15px;
+  font-size: 17px;
+}
+#navbar a{
+  color: white;
+  text-decoration: none;
+}
+#navbar a:hover{
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+}
+
+/* bg-centro */
+#bg-centro{
+  background-image: url(../img/bg-projeto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#content-center{
+  width: 50%;
+  padding: 10% 0;
+  margin: 0 auto;
+  text-align: center;
+}
+#content-center h2{
+  color: white;
+  font-size: 32px;
+}
+#content-center img{
+  width: 120px;
+  background-color: #ED1E24;
+  border-radius: 100%;
+  margin-top: 30px;
+}
+#content-center p{
+  background-color: #ED1E24;
+  width: 35%;
+  min-width: 250px;
+  margin: 30px auto;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* about-me */
+#about-me{
+  background-color: #ED1E24;
+  color: white;
+  text-align: center;
+  padding: 3% 0;
+  padding-bottom: 15%;
+}
+#about-center{
+  width: 50%;
+  margin: 0 auto;
+}
+#about-me h2{
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+#about-me p{
+  font-size: 20px;
+  letter-spacing: 1.3px;
+}
+
+/* abilities */
+#abilities{
+  width: 100%;
+  margin-top: -12%;
+}
+#center-abilities{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.abilities{
+  display: inline-block;
+  width: 33.333%;
+  margin-left: -4px;
+  text-align: center;
+  padding: 55px 15px;
+  background: white;
+  border: 1px solid #ccc;
+}
+.abilities:nth-of-type(3){
+  margin-right: -4px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-left: none;
+}
+.abilities:nth-of-type(1){
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-right: none;
+}
+.abilities img{
+  width: 50px;
+  background: white;
+  padding: 15px;
+  box-sizing: content-box;
+  border-right: 3px solid #ED1E24;
+  border-bottom: 3px solid #ED1E24;
+  border-left: 1px solid #ED1E24;
+  border-top: 1px solid #ED1E24;
+}
+.abilities .title{
+  color: #ED1E24;
+  margin-top: 50px;
+  font-size: 16px;
+}
+.abilities .principal{
+  font-size: 24px;
+}
+.abilities .text{
+  margin-top: 25px;
+}
+
+/* content-projects */
+#content-projects{
+  padding: 5% 0;
+  width: 100%;
+}
+#center-content-projects{
+  width: 80%;
+  margin: 0 auto;
+}
+#projects-title{
+  text-align: center;
+  margin-bottom: 5%;
+}
+#projects-title h2{
+  color: #ED1E24;
+  margin-bottom: 3%;
+  font-size: 28px;
+}
+.link-projects{
+  color: #ED1E24;
+  font-weight: bold;
+}
+#images-projects{
+  width: 100%;
+  margin: 0 auto;
+}
+.images-projects{
+  width: 30%;
+  padding-top: 30%;
+  background-size: cover;
+  display: inline-block;
+  margin: 0 1.5%;
+  margin-bottom: 5%;
+  border-right: 2px solid #ED1E24;
+  border-bottom: 2px solid #ED1E24;
+}
+
+/* contact-me */
+#contact-me{
+  width: 100%;
+  background-color: #ED1E24;
+  padding-top: 3%;
+}
+#center-contact-me{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+#title-contact h2{
+  color: white;
+  font-size: 28px;
+  letter-spacing: 1.1px;
+  margin-bottom: 3%;
+}
+#title-contact p{
+  color: white;
+  margin-bottom: 4%;
+}
+#title-contact img{
+  width: 50px;
+  margin-bottom: 5%;
+}
+#form{
+  width: 60%;
+  margin: 0 auto;
+}
+#form input{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 5%;
+  box-sizing: border-box;
+  outline: 0;
+  border: none;
+}
+#form textarea{
+  width: 100%;
+  height: 100px;
+  resize: none;
+  margin-bottom: 5%;
+  padding: 10px;
+  outline: 0;
+}
+#form input[type="submit"]{
+  cursor: pointer;
+}
+
+/* Footer */
+footer{
+  width: 100%;
+  background-color: #ED1E24;
+}
+#center-footer{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 3%;
+}
+footer p{
+  color: white;
+}
+#credits{
+  font-weight: bold;
+}
+
+@media screen and (max-width: 900px){
+  #content-center{
+    width: 70%;
+  }
+  #about-center{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #center-contact-me{
+    width: 75%;
+  }
+  #center-footer{
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 810px){
+  .logo h2{
+    font-size: 26px;
+  }
+  .abilities .title{
+    color: #ED1E24;
+    margin-top: 50px;
+    font-size: 14px;
+  }
+  .abilities .principal{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 680px){
+  .logo img{
+    width: 35px;
+    vertical-align: middle;
+    transform: rotate(30deg);
+  }
+  .logo h2{
+    font-size: 24px;
+    vertical-align: middle;
+    margin-left: 15px;
+    color: white;
+  }
+  #content-center{
+    width: 90%;
+  }
+  #abilities{
+    margin-top: -8%;
+  }
+  .abilities{
+    width: 75%;
+    margin-bottom: 5%;
+  }
+  .abilities:nth-of-type(3){
+    margin-right: 0px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-left: 1px solid #ccc;
+  }
+  .abilities:nth-of-type(1){
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  #center-content-projects{
+    width: 85%;
+    text-align: center;
+  }
+  .images-projects{
+    width: 60%;
+    padding-top: 60%;
+    background-size: cover;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-right: 2px solid #ED1E24;
+    border-bottom: 2px solid #ED1E24;
+    background-color: red;
+  }
+  #center-contact-me{
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 590px){
+  .content-header{
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  } 
+  /* navbar */
+  .logo h2{
+    text-align: center;
+  }
+  #navbar{
+    text-align: center;
+    padding: 2% 0;
+  }
+  #content-center h2{
+    color: white;
+    font-size: 24px;
+  }
+  #content-center p{
+    font-size: 14px;
+  }
+  #about-me h2{
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  #about-me p{
+    font-size: 16px;
+    letter-spacing: 1.3px;
+  }
+  #center-footer{
+    width: 100%;
+  }
+}
